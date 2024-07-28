@@ -1,8 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const hamburgerMenu = document.getElementById("hamburger-menu");
-  const navLinks = document.getElementById("nav-links");
+// Hamburger Menu Toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const menuBtn = document.querySelector('#hamburger-menu');
+  const navLinks = document.querySelector('#nav-links');
 
-  hamburgerMenu.addEventListener("click", function() {
-    navLinks.classList.toggle("active");
+  menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
   });
 });
