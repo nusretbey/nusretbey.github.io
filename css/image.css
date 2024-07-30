@@ -380,6 +380,10 @@ p {
     height: auto; /* Küçük ekranlarda yüksekliği otomatik ayarla */
  }
 
+ .carousel-container {
+  margin-bottom: 125px;
+}
+
 
 
 
